@@ -6,7 +6,7 @@ You will need to install the free Xinput library! https://github.com/dmadison/Ar
 **Don't use a common 1/4 Watt resistor!**
 The 26 ohm 1 Watt resistor is the smalest possible resistance for 1 Watt at 5 Volts (P = VxV/R => 0.96 Watt = 5x5V/26R).
 The smaler this resistor is the more range there is for reading the slot car resistor.
-The resistor puls the wiper voltage to the ground. Which is intended to stop the car when there is a bad wiper contact with the slot car resistor, or the wiper is at the electrical isolated brake part of the slot car resistor.
+The resistor puls the wiper voltage to the ground. Which is intended to stop the car when the wiper is at the electrical isolated brake part of the slot car resistor or has bad contact.
 
 ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110134779-0e34ac00-7dce-11eb-99cd-8cc50ce4cb02.png)
 
