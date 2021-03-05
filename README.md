@@ -2,7 +2,7 @@
 Arduino USB adapter for connecting a real analog slot car controller to PC (game Virtual SlotCars).
 
 - **You will need to install the free Xinput library!** https://github.com/dmadison/ArduinoXInput
-- **Not all Arduino types can be used for this project.** Arduino Pro Micro Sparkfun clone used.
+- **Not all Arduino types can be used for this project.** Arduino Pro Micro Sparkfun clone 5 V 16 MHz used.
   - For a complete list of available packages and compatible boards see there 'supported boards' file.
 https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 - **After uploading with the Xinput library, your Arduino can't possibly be programmed as a normal Arduino anymore!**
