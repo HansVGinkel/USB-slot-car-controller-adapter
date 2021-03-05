@@ -4,7 +4,8 @@ Arduino USB adapter for connecting a real analog slot car controller to PC (game
 You will need to install the free Xinput library! https://github.com/dmadison/ArduinoXInput
 
 **Don't use a common 1/4 Watt resistor!**
-The 26 ohm 1 Watt resistor is the smalest possible resistance for 1 Watt at 5 Volts (P = VxV/R => 0.96 Watt = 5x5V/26R).
+The 26 ohm 1 Watt resistor is the smalest possible resistor for 1 Watt at 5 Volts (P = VxV/R => 0.96 Watt = 5x5V/26R). 
+It's maximum current is reached when the controller has full trottle and nearly no resistance.
 The smaler this resistor is the more range there is for reading the slot car resistor.
 The resistor puls the wiper voltage to the ground. Which is intended to stop the car when the wiper is at the electrical isolated brake part of the slot car resistor or has bad contact.
 
