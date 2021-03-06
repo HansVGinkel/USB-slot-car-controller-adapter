@@ -7,7 +7,7 @@ Arduino USB adapter for connecting a real analog slot car controller to PC (game
 https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 - **After uploading with the Xinput library, your Arduino can't possibly be programmed as a normal Arduino anymore!**
 ##  
-![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110209343-4d293700-7e8c-11eb-9fad-6625ab453f90.png)
+![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110209985-c413ff00-7e8f-11eb-98c6-647defde7a89.png)
 ##  
 **Don't use a common 1/4 Watt resistor!**
 - The 26 ohm 1 Watt resistor is the smalest possible resistor for 1 Watt at 5 Volts (P = VxV/R => 0.96 Watt = 5x5V/26R). 
