@@ -1,5 +1,5 @@
-# USB-slot-car-controller-adapter
-Arduino USB adapter for connecting a real analog slot car controller to PC (game Virtual SlotCars).
+# USB slot car controller adapter
+Arduino USB adapter for connecting a real analog resistor slot car controller to PC (game Virtual SlotCars).
 ##  
 - **You will need to install the free Xinput library!** https://github.com/dmadison/ArduinoXInput
 - **Not all Arduino types can be used for this library!** Arduino Pro Micro Sparkfun clone 5 V 16 MHz used.
