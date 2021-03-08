@@ -9,8 +9,8 @@ https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 ##  
 ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110209985-c413ff00-7e8f-11eb-98c6-647defde7a89.png)
 ##  
-**Don't use a common 1/4 Watt resistor!**
-- The 26 ohm 1 Watt resistor is the smalest possible resistor for 1 Watt at 5 Volts (P = VxV/R => 0.96 Watt = 5x5V/26R). 
+**Use minimal an 1 Watt resistor, not a common 1/4 Watt resistor!**
+- The 26 (27 ohm used) 1 Watt resistor is the smalest possible resistor for 1 Watt at 5 Volts (P = VxV/R => 0.96 Watt = 5x5V/26R). 
 - It's maximum current is reached when the controller has full throttle and nearly no resistance.
 - The smaler this resistor is the more range there is for reading the slot car resistor.
 - The resistor puls the wiper voltage to the ground. Which is intended to stop the car when the wiper is at the electrical isolated brake part of the slot car resistor or has bad electrical contact.
