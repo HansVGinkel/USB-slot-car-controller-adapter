@@ -5,7 +5,8 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - For a complete list of available packages and compatible boards see there 'supported boards' file.
   https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 - **Use minimal a 1 Watt resistor** not a common 1/4 Watt resistor.
-  - ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
+- **Circuit diagram**
+- ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
 
 ## Software
 - **Install the free Arduino IDE** https://www.arduino.cc/en/software/
