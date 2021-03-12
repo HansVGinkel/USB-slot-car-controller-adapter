@@ -12,7 +12,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
 ## Software
 - **Install the free Arduino IDE on your PC** https://www.arduino.cc/en/software/
 
-- **Install the free Xinput library**
+- **Open the IDE program and install the free Xinput library**
   - ![image](https://user-images.githubusercontent.com/79975566/110919377-7af2fd80-831c-11eb-97fb-55ea1efdf3d3.png)
   - ![image](https://user-images.githubusercontent.com/79975566/110919981-22703000-831d-11eb-8c71-587f73e935d6.png)
 
