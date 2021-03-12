@@ -8,7 +8,21 @@ https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 ## Software
 - **Install the free Arduino IDE** https://www.arduino.cc/en/software/
 - **Install the free Xinput library!** https://github.com/dmadison/ArduinoXInput
-- When uploading of the sketch starts you need to make a short (time) connection between the reset (RST) and ground (GND).
+  ![image](https://user-images.githubusercontent.com/79975566/110919377-7af2fd80-831c-11eb-97fb-55ea1efdf3d3.png)
+  ![image](https://user-images.githubusercontent.com/79975566/110919981-22703000-831d-11eb-8c71-587f73e935d6.png)
+- Download .zip board package (Sparkfun used) https://github.com/dmadison/ArduinoXInput_SparkFun
+  - Unzip and copy xinput_sparkfun as subfolder in the hardware folder 
+  ![image](https://user-images.githubusercontent.com/79975566/110921793-3fa5fe00-831f-11eb-88f5-74db2d34cbc0.png)
+  - Select the used board
+  ![image](https://user-images.githubusercontent.com/79975566/110922299-cce95280-831f-11eb-8a78-f0d06d8525ad.png)
+  - Select the port
+  ![image](https://user-images.githubusercontent.com/79975566/110922457-fefab480-831f-11eb-9825-0e83fd080344.png)
+- Download and open the sketch file.
+  Copy paste the code into the you IDE.
+- Connect a USB cable from you PC to your Arduino.
+- Before you can upload the sketch from you IDE to your Arduino you need to mention the following:
+  - When uploading of the sketch starts you need to make a short (time) connection between the reset (RST) and ground (GND).
+  - You can use a piece of wire for this, temperory soldered to the RST pin and touch other side to the GND.
 - **After uploading with the Xinput library, your Arduino can't possibly be programmed as a normal Arduino anymore!**
 ##  
 ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
