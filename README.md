@@ -1,10 +1,14 @@
 # USB slot car controller adapter
 Arduino USB adapter for connecting a real analog resistor slot car controller to PC (game Virtual SlotCars).
-##  
-- **You will need to install the free Xinput library!** https://github.com/dmadison/ArduinoXInput
-- **Not all Arduino types can be used for this library!** Arduino Pro Micro Sparkfun clone 5 V 16 MHz used.
+## Hardware
+- **Not all Arduino types can be used!** Arduino Pro Micro Sparkfun clone 5 V 16 MHz used (costs less than EUR/USD/GBP 10,-).
   - For a complete list of available packages and compatible boards see there 'supported boards' file.
 https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
+- **Use minimal a 1 Watt resistor** not a common 1/4 Watt resistor
+## Software
+- **Install the free Arduino IDE** https://www.arduino.cc/en/software/
+- **Install the free Xinput library!** https://github.com/dmadison/ArduinoXInput
+- When uploading of the sketch starts you need to make a short (time) connection between the reset (RST) and ground (GND).
 - **After uploading with the Xinput library, your Arduino can't possibly be programmed as a normal Arduino anymore!**
 ##  
 ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
