@@ -28,11 +28,12 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
 - **Download and open the free sketch file slotcar_controller.ino** from this page.
   - Deleting de default code in the IDE first.
   - Now copy paste the code from the file into the IDE.
+  - Press the Verify button to see if the code is OK.
   - Save your sketch file with a new name.
 
 - **Connect a USB A to Micro USB cable from you PC to your Arduino**
 - **Before you can upload** the sketch from you IDE to your Arduino you need to mention the following:
-  - When uploading of the sketch starts you need to make a short (time) connection between the reset (RST) and ground (GND).
+  - After you pressed the Upload button and uploading of the sketch starts you need to make a short (time) connection between the reset (RST) and ground (GND).
   - You can use a piece of wire for this, temperory soldered to the RST pin and touch other side to the GND.
   - On an original Arduino Micro there is a white reset button for this.
   - There is no problem if the upload isn't right the fist time (lot's of error messages), just try again and adjust the reset timing.
