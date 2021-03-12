@@ -41,7 +41,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - But who cares? :)
 
 ## Explanation 
-### Use minimal a 1 Watt resistor, not a common 1/4 Watt resistor!
+### Use of minimal a 1 Watt resistor, not a common 1/4 Watt resistor!
 - The 27 ohm 1 Watt resistor is the smalest possible resistor for 1 Watt at 5 Volts (P = VxV/R => 0.93 Watt = 5x5V/27R). 
 - It's maximum current is reached when the controller has full throttle and nearly no resistance.
 - The smaler this resistor is the more range there is for reading the slot car resistor.
