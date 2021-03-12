@@ -4,6 +4,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
 - **Not all Arduino types can be used!** Arduino Pro Micro Sparkfun clone 5 V 16 MHz used (costs less than EUR/USD/GBP 10,-).
   - For a complete list of available packages and compatible boards see there 'supported boards' file.
   https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
+- **USB A to Micro USB cable**
 - **Use minimal a 1 Watt resistor** not a common 1/4 Watt resistor.
 - **Circuit diagram**
 - ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
@@ -29,7 +30,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - Now copy paste the code from the file into the IDE.
   - Save your sketch file with a new name.
 
-- **Connect a USB cable from you PC to your Arduino**
+- **Connect a USB A to Micro USB cable from you PC to your Arduino**
 - **Before you can upload** the sketch from you IDE to your Arduino you need to mention the following:
   - When uploading of the sketch starts you need to make a short (time) connection between the reset (RST) and ground (GND).
   - You can use a piece of wire for this, temperory soldered to the RST pin and touch other side to the GND.
