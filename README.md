@@ -43,7 +43,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - After you pressed the Upload button ![image](https://user-images.githubusercontent.com/79975566/110943696-ce287880-833b-11eb-89fc-fe4b681249d1.png)
  and uploading of the sketch just starts ![image](https://user-images.githubusercontent.com/79975566/110944016-2bbcc500-833c-11eb-94b7-3ab0eee2ad2c.png)
  you need to make a short (time) connection between the reset (RST) and ground (GND).
-  - You can use a piece of wire for this, temperory soldered to the RST pin and touch other side to the GND.
+  - You can use a piece of wire for this, temperory soldered to the RST pin and touch the other side of the wire to GND.
   - On an original Arduino Micro there is a white reset button for this.
   - There is no problem if the upload isn't right the fist time (lot's of error messages), just try again and adjust your reset timing.
 - **After uploading with the Xinput library, your Arduino can't possibly be programmed as a normal Arduino anymore!** 
