@@ -5,6 +5,8 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - For a complete list of available packages and compatible boards see there 'supported boards' file.
 https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 - **Use minimal a 1 Watt resistor** not a common 1/4 Watt resistor.
+- ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
+
 ## Software
 - **Install the free Arduino IDE** https://www.arduino.cc/en/software/
 - **Install the free Xinput library!** https://github.com/dmadison/ArduinoXInput
@@ -16,7 +18,7 @@ https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
   - Select the used board
   ![image](https://user-images.githubusercontent.com/79975566/110922299-cce95280-831f-11eb-8a78-f0d06d8525ad.png)
   - Select the port
-  - ![image](https://user-images.githubusercontent.com/79975566/110922457-fefab480-831f-11eb-9825-0e83fd080344.png)
+  ![image](https://user-images.githubusercontent.com/79975566/110922457-fefab480-831f-11eb-9825-0e83fd080344.png)
 - Download and open the sketch file.
   Copy paste the code into the IDE.
 - Connect a USB cable from you PC to your Arduino.
@@ -24,9 +26,6 @@ https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
   - When uploading of the sketch starts you need to make a short (time) connection between the reset (RST) and ground (GND).
   - You can use a piece of wire for this, temperory soldered to the RST pin and touch other side to the GND.
 - **After uploading with the Xinput library, your Arduino can't possibly be programmed as a normal Arduino anymore!**
-##  
-![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
-##  
 ### Use minimal a 1 Watt resistor, not a common 1/4 Watt resistor!
 - The 27 ohm 1 Watt resistor is the smalest possible resistor for 1 Watt at 5 Volts (P = VxV/R => 0.93 Watt = 5x5V/27R). 
 - It's maximum current is reached when the controller has full throttle and nearly no resistance.
