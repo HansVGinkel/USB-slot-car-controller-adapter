@@ -9,9 +9,11 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
 
 ## Software
 - **Install the free Arduino IDE** https://www.arduino.cc/en/software/
+
 - **Install the free Xinput library!** https://github.com/dmadison/ArduinoXInput
   ![image](https://user-images.githubusercontent.com/79975566/110919377-7af2fd80-831c-11eb-97fb-55ea1efdf3d3.png)
   ![image](https://user-images.githubusercontent.com/79975566/110919981-22703000-831d-11eb-8c71-587f73e935d6.png)
+
 - **Install the free board package**
   - Download .zip board package (Sparkfun used) https://github.com/dmadison/ArduinoXInput_SparkFun
   - Unzip and copy xinput_sparkfun as subfolder in the hardware folder 
@@ -20,13 +22,16 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   ![image](https://user-images.githubusercontent.com/79975566/110922299-cce95280-831f-11eb-8a78-f0d06d8525ad.png)
   - Select the port
   - ![image](https://user-images.githubusercontent.com/79975566/110922457-fefab480-831f-11eb-9825-0e83fd080344.png)
-- Download and open the sketch file.
+
+- Download and open the sketch file slotcar_controller.ino.
   Copy paste the code into the IDE.
+
 - Connect a USB cable from you PC to your Arduino.
 - Before you can upload the sketch from you IDE to your Arduino you need to mention the following:
   - When uploading of the sketch starts you need to make a short (time) connection between the reset (RST) and ground (GND).
   - You can use a piece of wire for this, temperory soldered to the RST pin and touch other side to the GND.
 - **After uploading with the Xinput library, your Arduino can't possibly be programmed as a normal Arduino anymore!**
+
 ### Use minimal a 1 Watt resistor, not a common 1/4 Watt resistor!
 - The 27 ohm 1 Watt resistor is the smalest possible resistor for 1 Watt at 5 Volts (P = VxV/R => 0.93 Watt = 5x5V/27R). 
 - It's maximum current is reached when the controller has full throttle and nearly no resistance.
