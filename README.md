@@ -38,7 +38,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - On an original Arduino Micro there is a white reset button for this.
   - There is no problem if the upload isn't right the fist time (lot's of error messages), just try again and adjust the reset timing.
 - **After uploading with the Xinput library, your Arduino can't possibly be programmed as a normal Arduino anymore!** 
-  - But who cares? :)
+  - But who cares? :wink:
 
 ## Explanation 
 ### The use of minimal a 1 Watt resistor, not a common 1/4 Watt resistor!
