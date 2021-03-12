@@ -5,14 +5,14 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - For a complete list of available packages and compatible boards see there 'supported boards' file.
   https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 - **Use minimal a 1 Watt resistor** not a common 1/4 Watt resistor.
-  ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
+    ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/110343992-57366b80-802d-11eb-8bee-f2e01754493b.png)
 
 ## Software
 - **Install the free Arduino IDE** https://www.arduino.cc/en/software/
 
 - **Install the free Xinput library!** https://github.com/dmadison/ArduinoXInput
-  ![image](https://user-images.githubusercontent.com/79975566/110919377-7af2fd80-831c-11eb-97fb-55ea1efdf3d3.png)
-  ![image](https://user-images.githubusercontent.com/79975566/110919981-22703000-831d-11eb-8c71-587f73e935d6.png)
+    ![image](https://user-images.githubusercontent.com/79975566/110919377-7af2fd80-831c-11eb-97fb-55ea1efdf3d3.png)
+    ![image](https://user-images.githubusercontent.com/79975566/110919981-22703000-831d-11eb-8c71-587f73e935d6.png)
 
 - **Install the free board package**
   - Download .zip board package (Sparkfun used) https://github.com/dmadison/ArduinoXInput_SparkFun
