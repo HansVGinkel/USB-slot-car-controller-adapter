@@ -25,7 +25,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
 
     ![image](https://user-images.githubusercontent.com/79975566/110921793-3fa5fe00-831f-11eb-88f5-74db2d34cbc0.png)
   
-  - Select the used board, processor and port
+  - Select the used board w/Xinput, processor and port
 
     ![image](https://user-images.githubusercontent.com/79975566/111065022-cdb4ec80-84b7-11eb-9c9a-a52593c0ca3e.png)
 
