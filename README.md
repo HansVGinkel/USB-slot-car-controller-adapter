@@ -23,7 +23,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - Download ArduinoXinput_AVR_v.zip board package https://github.com/dmadison/ArduinoXInput_AVR/releases/latest
   - Unzip, copy and move **xinput** as direct subfolder in the **hardware** folder of your IDE installation, see screenshot:
 
-    
+    ![image](https://user-images.githubusercontent.com/79975566/111279364-ebf72580-863a-11eb-9edd-dabc643ebef4.png)
  
   - Delete the folder "ArduinoXinput" with the remaining content. It comes with the download but doesn't belong anywhere.
 
@@ -31,7 +31,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - Download .zip board package (Sparkfun used) https://github.com/dmadison/ArduinoXInput_SparkFun
   - Unzip, copy and move **xinput_sparkfun** as direct subfolder in the **hardware** folder, see screenshot:
 
-    ![image](https://user-images.githubusercontent.com/79975566/111075898-4b91eb80-84ea-11eb-90df-190cdb6c475b.png)
+    ![image](https://user-images.githubusercontent.com/79975566/111279512-0fba6b80-863b-11eb-9e91-d9a12bf83cd6.png)
  
   - Delete the folder "ArduinoXinput_Sparkfun-master" with the remaining content. It comes with the download but doesn't belong anywhere.
 
