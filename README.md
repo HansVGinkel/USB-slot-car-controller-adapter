@@ -7,7 +7,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
 - **USB A to Micro USB cable**
 - **Use minimal a 1 Watt resistor** not a common 1/4 Watt resistor.
 - **Two potentiometers** to calibrate the input range between brake and full throthle. 
-  Ingame brake settings (B + up/down arrow keys) are still necessary for every lane. However the default 50% brake is good to go.
+  Brake settings are still set ingame (B + up/down arrow keys for every lane). However the default 50% brake is good to go.
 - **Circuit diagram**
 
   ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/111668908-8eb7cb80-8816-11eb-8ee8-e7dc7b8cc181.png)
