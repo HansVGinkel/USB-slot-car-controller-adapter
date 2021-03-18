@@ -10,7 +10,7 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   Ingame brake settings (B + up/down arrow keys) are still necessary for every lane. However the default 50% brake is good to go.
 - **Circuit diagram**
 
-![Arduino USB slot car controller adapter 1 0](https://user-images.githubusercontent.com/79975566/111668835-73e55700-8816-11eb-89b8-f7a493228a21.png)
+  ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/111668908-8eb7cb80-8816-11eb-8ee8-e7dc7b8cc181.png)
 
 ## Software
 - **Install the free Arduino IDE on your PC** https://www.arduino.cc/en/software/
