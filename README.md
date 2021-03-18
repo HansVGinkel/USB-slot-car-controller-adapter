@@ -12,6 +12,8 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
   - **Plastic plate for mounting the cable clamp on** 6 mm / 2/8 inch thick.
   - **Rubber cable grommet** for USB cable protection. Large enough to pull over the micro USB connector.
 - **Soldering iron with fine tip**, or wrap some copper wire around it to make a fine tip.
+- **Casing** 10 x 6 x 2.5 cm / 4" x 2.5" x 1" (l x w x h).
+- **Connector(s)** for your slot car controller.
 - **Circuit diagram**
 
   ![Arduino USB slot car controller adapter](https://user-images.githubusercontent.com/79975566/111668908-8eb7cb80-8816-11eb-8ee8-e7dc7b8cc181.png)
