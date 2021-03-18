@@ -2,7 +2,7 @@
 Arduino USB adapter for connecting a real analog resistor slot car controller to PC (game Virtual SlotCars).
 ## Hardware
 - **Not all Arduino types can be used!** Arduino Pro Micro Sparkfun clone 5 V 16 MHz used (costs less than EUR/USD/GBP 10,-).
-  - For a complete list of available packages and compatible boards see there 'supported boards' file.
+  - For a complete list of compatible boards see the 'supported boards' file.
   https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 - **Use minimal a 1 Watt resistor** not a common 1/4 Watt resistor.
 - **Two potentiometers with knobs** to calibrate the input range between brake and full throthle. 
