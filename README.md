@@ -4,8 +4,8 @@ Arduino USB adapter for connecting a real analog resistor slot car controller to
 - **Not all Arduino types can be used!** Arduino Pro Micro Sparkfun clone 5 V 16 MHz used (costs less than EUR/USD/GBP 10,-).
   - For a complete list of compatible boards see the 'supported boards' file.
   https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
-- **Use minimal a 1 Watt resistor** not a common 1/4 Watt resistor.
-- **Two potentiometers with knobs** to calibrate the input range between brake and full throthle. 
+- **27 Ohm resistor, use minimal a 1 Watt type** not a common 1/4 Watt.
+- **Two potentiometers 10k Ohm with knobs** to calibrate the input range between brake and full throthle. (Two 5k Ohm as alternative.)
   Brake settings are still set ingame (B + up/down arrow keys for every lane). However the default 50% brake is good to go.
 - **USB A to Micro USB cable** used 1 meter / 3 feet.
   - **Cable clamp for USB cable** (for example from an AC mains power connectors)
