@@ -1,7 +1,7 @@
 # USB slot car controller adapter
 Arduino USB adapter for connecting a real analog slot car controller to PC (game Virtual SlotCars).
 
-- Use an analog slot car controllers with a resistor. But do not connect electronic or digital slot car controllers, they can be destroyed.
+- Use an analog slot car controllers with a resistor and two or three wires. But do not connect electronic or digital slot car controllers, they can be destroyed.
 ## Hardware
 - **Not all Arduino types can be used!** Arduino Pro Micro Sparkfun clone 5 V 16 MHz used (costs less than EUR/USD/GBP 10,-).
   - For a complete list of compatible boards see the 'supported boards' file.
