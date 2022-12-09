@@ -10,7 +10,7 @@ Arduino USB adapter for connecting a real analog slot car controller to PC (game
   - For a complete list of compatible boards see the 'supported boards' file.
   https://github.com/dmadison/ArduinoXInput/blob/master/extras/SupportedBoards.md
 - **27 Ohm resistor, use minimal a 1 Watt type** not a common 1/4 Watt.
-- **Two potentiometers 10k Ohm with knobs** or 5k Ohm as alternative, to calibrate the input range between brake and full throthle.
+- **Two linear potentiometers 10k Ohm with knobs** or 5k Ohm as alternative, to calibrate (crop) the input range between brake and full throthle.
   Brake settings are still set ingame (B + up/down arrow keys per lane). However the default 50% brake is good to go.
 - **USB A to Micro USB cable** used 1 meter / 3 feet.
   - **Cable clamp for USB cable** (for example from an AC mains power connectors)
